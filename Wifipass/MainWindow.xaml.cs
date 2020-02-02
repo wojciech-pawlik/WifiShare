@@ -24,9 +24,9 @@ namespace Wifipass
             ws.GetNamesAndPasswords();
             content.Items.Clear();
 
-            for (int i = 0; i < ws.names.Count; i++)
+            for (int i = 0; i < ws.Names.Count; i++)
             {
-                content.Items.Add(new WifiEntity { name = ws.names[i], password = ws.passwords[i] });
+                content.Items.Add(new WifiEntity { Name = ws.Names[i], Password = ws.Passwords[i] });
             }
         }
 
@@ -45,15 +45,6 @@ namespace Wifipass
                 Clipboard.SetText(cell.ToString());
                 descriptionTextBlock.Text = "Copied value: " + cell.ToString();
             }
-        }
-
-        private DataGridCell GetDataGridCell(DataGridCellInfo cellInfo)
-        {
-            var cellContent = cellInfo.Column.GetCellContent(cellInfo.Item);
-            if (cellContent != null)
-                return (DataGridCell)cellContent.Parent;
-
-            return null;
         }
     }
 }

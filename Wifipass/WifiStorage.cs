@@ -11,13 +11,13 @@ namespace Wifipass
     {
         private static readonly string TEMPORARY_FOLDER = "credentials";
 
-        public List<string> names { get; set; }
-        public List<string> passwords { get; set; }
+        public List<string> Names { get; set; }
+        public List<string> Passwords { get; set; }
 
         public WifiStorage()
         {
-            names = new List<string>();
-            passwords = new List<string>();
+            Names = new List<string>();
+            Passwords = new List<string>();
         }
 
         public void GetNamesAndPasswords()
@@ -44,24 +44,25 @@ namespace Wifipass
             // 3. load values from XML files to arrays
             var files = Directory.GetFiles(TEMPORARY_FOLDER, "*.xml", SearchOption.AllDirectories);
 
-            names = new List<string>();
-            passwords = new List<string>();
+            Names = new List<string>();
+            Passwords = new List<string>();
             foreach (var file in files)
             {
                 var xmlDocument = new XmlDocument();
                 xmlDocument.Load(file);
-                names.Add(xmlDocument.GetElementsByTagName("name")[0].InnerText);
-                passwords.Add(xmlDocument.GetElementsByTagName("keyMaterial")[0].InnerText);
+                Names.Add(xmlDocument.GetElementsByTagName("name")[0].InnerText);
+                Passwords.Add(xmlDocument.GetElementsByTagName("keyMaterial")[0].InnerText);
             }
 
             // 4. delete temporary folder
             Directory.Delete(TEMPORARY_FOLDER, true);
+            cmd.Close();
         }
     }
 
     public class WifiEntity
     {
-        public string name { get; set; }
-        public string password { get; set; }
+        public string Name { get; set; }
+        public string Password { get; set; }
     }
 }
