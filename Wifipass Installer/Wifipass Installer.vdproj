@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_33869C09217F447D9CCB7FF9BDF040D8"
+        "MsmKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -28,19 +28,19 @@
         "Entry"
         {
         "MsmKey" = "8:_9985BCC530FD1E468E2CABE7C78EE384"
-        "OwnerKey" = "8:_33869C09217F447D9CCB7FF9BDF040D8"
+        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C785104DB858A71246E0CD0BA80A88B2"
-        "OwnerKey" = "8:_33869C09217F447D9CCB7FF9BDF040D8"
+        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C9D44423D2FC37637D3685C66340F92F"
-        "OwnerKey" = "8:_33869C09217F447D9CCB7FF9BDF040D8"
+        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -58,7 +58,7 @@
         "Entry"
         {
         "MsmKey" = "8:_FDB9C7FB13BBE27922771A4804160E1E"
-        "OwnerKey" = "8:_33869C09217F447D9CCB7FF9BDF040D8"
+        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -70,7 +70,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_33869C09217F447D9CCB7FF9BDF040D8"
+        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -353,9 +353,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Wifipass Installer"
+        "ProductName" = "8:Wifipass"
         "ProductCode" = "8:{CE7709FA-7464-40F6-91C4-A58F02DE44F0}"
-        "PackageCode" = "8:{CDD45B63-5CCF-4F1B-9489-6ED3E6F72B3B}"
+        "PackageCode" = "8:{6781518B-A5C8-43B3-9139-BD6E3C136683}"
         "UpgradeCode" = "8:{470AC113-C098-4BE7-B656-D2441B7B8436}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -370,7 +370,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:Wojciech Pawlik"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
+        "ARPCOMMENTS" = "8:Check saved on your PC Wi-Fi networks and passwords"
         "ARPURLINFOABOUT" = "8:https://github.com/wojciech-pawlik"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
@@ -888,7 +888,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_33869C09217F447D9CCB7FF9BDF040D8"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6E6D1E590AC34526ADB134F72F59B1C6"
             {
             "SourcePath" = "8:..\\Wifipass\\obj\\Debug\\Wifipass.exe"
             "TargetName" = "8:"

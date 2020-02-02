@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Diagnostics;
 using System.Xml;
-using System.Collections.ObjectModel;
 
 namespace Wifipass
 {

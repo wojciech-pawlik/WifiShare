@@ -99,7 +99,7 @@
                 <!-- FONT -->
                 <DataGrid.Resources>
                     <Style TargetType="{x:Type TextBlock}">
-                        
+
                     </Style>
                     <Style TargetType="{x:Type DataGrid}">
                         <Setter Property="Background"
