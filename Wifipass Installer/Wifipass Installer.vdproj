@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_9985BCC530FD1E468E2CABE7C78EE384"
         "OwnerKey" = "8:_C9D44423D2FC37637D3685C66340F92F"
         "MsmSig" = "8:_UNDEFINED"
@@ -28,19 +22,19 @@
         "Entry"
         {
         "MsmKey" = "8:_9985BCC530FD1E468E2CABE7C78EE384"
-        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
+        "OwnerKey" = "8:_FB3C7693E19F42BA8B8F52E964FAAF26"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C785104DB858A71246E0CD0BA80A88B2"
-        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
+        "OwnerKey" = "8:_FB3C7693E19F42BA8B8F52E964FAAF26"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C9D44423D2FC37637D3685C66340F92F"
-        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
+        "OwnerKey" = "8:_FB3C7693E19F42BA8B8F52E964FAAF26"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -51,6 +45,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_FB3C7693E19F42BA8B8F52E964FAAF26"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_FDB9C7FB13BBE27922771A4804160E1E"
         "OwnerKey" = "8:_C9D44423D2FC37637D3685C66340F92F"
         "MsmSig" = "8:_UNDEFINED"
@@ -58,19 +58,13 @@
         "Entry"
         {
         "MsmKey" = "8:_FDB9C7FB13BBE27922771A4804160E1E"
-        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
+        "OwnerKey" = "8:_FB3C7693E19F42BA8B8F52E964FAAF26"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C785104DB858A71246E0CD0BA80A88B2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6E6D1E590AC34526ADB134F72F59B1C6"
+        "OwnerKey" = "8:_FB3C7693E19F42BA8B8F52E964FAAF26"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -91,6 +85,12 @@
         "OwnerKey" = "8:_9985BCC530FD1E468E2CABE7C78EE384"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C785104DB858A71246E0CD0BA80A88B2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -109,6 +109,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -125,6 +141,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -146,7 +178,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.6.1"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.7.2"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=671728"
                 }
@@ -355,7 +387,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Wifipass"
         "ProductCode" = "8:{CE7709FA-7464-40F6-91C4-A58F02DE44F0}"
-        "PackageCode" = "8:{6781518B-A5C8-43B3-9139-BD6E3C136683}"
+        "PackageCode" = "8:{A957B527-72A8-4465-A080-870B028FFC39}"
         "UpgradeCode" = "8:{470AC113-C098-4BE7-B656-D2441B7B8436}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -475,18 +507,18 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2994E41B47024382975AF2997A90C264"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_23334258947242659515631BEF8597A7"
             {
-            "Name" = "8:Wifipass"
+            "Name" = "8:Shortcut to Podstawowe wyjście from Wifipass (Active)"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_B63D145856BF48C8A1525A5521627129"
+            "Target" = "8:_FB3C7693E19F42BA8B8F52E964FAAF26"
             "Folder" = "8:_B63D145856BF48C8A1525A5521627129"
-            "WorkingFolder" = "8:_B63D145856BF48C8A1525A5521627129"
-            "Icon" = "8:_EA5219126CA1462EB774048E99DD55C3"
+            "WorkingFolder" = "8:_BFF7D714D532475286495D46B8825707"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -508,7 +540,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_06B8C2617F68496A835346B4C9D7221F"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Postęp"
+                    "DisplayName" = "8:Progress"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
@@ -552,7 +584,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_419A7B760FF64181BC13EE11186997D8"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Zakończono"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
@@ -596,7 +628,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_03B71C1F1093454D9AA6DF4E79932CD4"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Folder instalacji"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
@@ -618,7 +650,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0AC0AF60CF454CB3A4486C74F7522FBF"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Zapraszamy"
+                    "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
@@ -666,7 +698,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_A3936579396D442493F80BAAC9CC7466"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Potwierdzanie instalacji"
+                    "DisplayName" = "8:Confirm Installation"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
@@ -697,7 +729,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C645CACC3EBA4B5A865057C8CD9DDE8E"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Postęp"
+                    "DisplayName" = "8:Progress"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
@@ -741,7 +773,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_46F30923007A47C090248B6A5B129B50"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Zakończono"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
@@ -778,7 +810,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0AEB06229FD744528B39F39FAB46417A"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:Folder instalacji"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
@@ -813,7 +845,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_34B254F5E64943108CA515BC72D10CA6"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:Potwierdzanie instalacji"
+                    "DisplayName" = "8:Confirm Installation"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
@@ -835,7 +867,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_5236034E7F3B45BEBB1BAD49DE2FE8AF"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:Zapraszamy"
+                    "DisplayName" = "8:Welcome"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
@@ -888,7 +920,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6E6D1E590AC34526ADB134F72F59B1C6"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FB3C7693E19F42BA8B8F52E964FAAF26"
             {
             "SourcePath" = "8:..\\Wifipass\\obj\\Debug\\Wifipass.exe"
             "TargetName" = "8:"

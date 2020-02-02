@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.IO;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace Wifipass
@@ -11,7 +12,7 @@ namespace Wifipass
         public MainWindow()
         {
             InitializeComponent();
-            LoadContent();
+            //LoadContent();
             if (!mainWindow.IsFocused)
             {
                 mainWindow.Focus();

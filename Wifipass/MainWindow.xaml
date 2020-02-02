@@ -160,7 +160,7 @@
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Name"
                                         x:Name="nameColumn"
-                                        Binding="{Binding Path=name}">
+                                        Binding="{Binding Path=Name}">
                         <DataGridTextColumn.ElementStyle>
                             <Style TargetType="TextBlock">
                                 <Setter Property="HorizontalAlignment"
@@ -172,7 +172,7 @@
                     </DataGridTextColumn>
                     <DataGridTextColumn Header="Password"
                                         x:Name="passwordColumn"
-                                        Binding="{Binding Path=password}">
+                                        Binding="{Binding Path=Password}">
                         <DataGridTextColumn.ElementStyle>
                             <Style TargetType="TextBlock">
                                 <Setter Property="HorizontalAlignment"
