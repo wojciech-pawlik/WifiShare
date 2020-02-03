@@ -10,3 +10,6 @@ If you connect new network or forget old, you can update the list via button 'Ch
 
 ## Copy
 Select choosen cell and copy its value.
+
+## Setup
+App requires administrator mode then while installation you will be asked to allow the program to make changes on your computer.
