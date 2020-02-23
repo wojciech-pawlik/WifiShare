@@ -1,7 +1,7 @@
 # Wifipass
 See saved on your PC Wi-Fi networks with passwords!
 
-How many times did your friends ask you for Wi-Fi password? How much time have you wasted to find out it? Thanks to this simple app, you can check it easy.
+How many times did your friends ask you for Wi-Fi password? How much time have you wasted to find out it? Thanks to this simple app, you can check it easily.
 
 ![Check your Wi-Fi networks](https://raw.githubusercontent.com/wojciech-pawlik/Wifipass/master/wifipass-readme.png)
 
