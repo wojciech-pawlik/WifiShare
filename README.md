@@ -1,4 +1,4 @@
-# Wifipass
+# WifiShare
 Display the list of all Wi-Fi networks saved on your PC. You can easily copy choosen password to clipboard.
 
 ### Additional options:
