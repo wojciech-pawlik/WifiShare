@@ -1,15 +1,8 @@
 # Wifipass
-See saved on your PC Wi-Fi networks with passwords!
+Display the list of all Wi-Fi networks saved on your PC. You can easily copy choosen password to clipboard.
 
-How many times did your friends ask you for Wi-Fi password? How much time have you wasted to find out it? Thanks to this simple app, you can check it easily.
-
-![Check your Wi-Fi networks](https://raw.githubusercontent.com/wojciech-pawlik/Wifipass/master/wifipass-readme.png)
-
-## Check
-If you connect new network or forget old, you can update the list via button 'Check'.
-
-## Copy
-Select choosen cell and copy its value.
-
-## Setup
-App requires administrator mode then while installation you will be asked to allow the program to make changes on your computer.
+### Additional options:
+Only for selected items or for all items if none is selected:
+- show/hide passwords
+- copy informations (name+password)
+- export to text or JSON file
